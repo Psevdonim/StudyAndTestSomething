@@ -1,4 +1,4 @@
-import { View } from '../types/View';
+import { View } from '../../types/View';
 import { CountController } from '../controllers/countController'
 
 export class CountView  implements View {

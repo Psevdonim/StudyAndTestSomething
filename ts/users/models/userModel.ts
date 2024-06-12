@@ -1,5 +1,5 @@
-import { Model } from '../types/Model';
-import { IUser } from '../types/User';
+import { Model } from '../../types/Model';
+import { IUser } from '../../types/User';
 
 
 export class UserModel implements Model {

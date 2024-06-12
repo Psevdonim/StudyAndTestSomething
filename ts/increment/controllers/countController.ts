@@ -1,6 +1,5 @@
 import { CountModel } from '../modes/countModel';
-import { Controller } from '../types/Controller';
-import { Model } from '../types/Model';
+import { Controller } from '../../types/Controller';
 
 export class CountController implements Controller {
     public model: CountModel;

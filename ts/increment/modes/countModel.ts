@@ -1,4 +1,4 @@
-import { Model } from '../types/Model';
+import { Model } from '../../types/Model';
 
 export class CountModel implements Model {
     private value: number;

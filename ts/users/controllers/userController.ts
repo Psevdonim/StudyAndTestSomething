@@ -1,6 +1,6 @@
 import { UserModel } from '../models/userModel';
-import { Controller } from '../types/Controller';
-import { IUser } from '../types/User';
+import { Controller } from '../../types/Controller';
+import { IUser } from '../../types/User';
 
 export class UserController implements Controller {
     model:UserModel;

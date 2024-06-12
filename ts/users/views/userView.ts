@@ -1,6 +1,6 @@
 import { UserController } from '../controllers/userController';
-import { IUser } from '../types/User';
-import { View } from '../types/View';
+import { IUser } from '../../types/User';
+import { View } from '../../types/View';
 
 export class UserView implements View {
     controller: UserController;
